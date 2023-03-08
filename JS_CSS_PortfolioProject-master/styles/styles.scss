@@ -17,7 +17,7 @@
     --color-grey-4: #454e56;
     --color-grey-5: #2a2e35;
     --color-grey-6: #12181b;
-    --br-sm-2: 14px;
+    --br-sm-2: 500px;
     --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
 
@@ -171,6 +171,7 @@ section {
             background-color: var(--color-black);
             transition: all .4s ease-in-out;
             img {
+                border-radius: var(--br-sm-2);
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
@@ -299,11 +300,11 @@ section {
                         width: 60%;
                     }
                     .html { width: 80%; }
-                    .css { width: 95%; }
-                    .js { width: 75%; }
-                    .react{ width: 60%; }
-                    .node{ width: 87%; }
-                    .python{ width: 70%; }
+                    .css { width: 60%; }
+                    .js { width: 50%; }
+                    .react{ width: 45%; }
+                    .node{ width: 25%; }
+                    .python{ width: 80%; }
                 }
             }
         }
